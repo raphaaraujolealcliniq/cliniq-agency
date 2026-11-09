@@ -29,3 +29,7 @@ Abra `index.html` no navegador ou execute `python -m http.server 8080` nesta pas
 
 ## Tecnologias
 HTML5, CSS3 e JavaScript puro, sem dependências de build. Pode ser hospedado como site estático.
+
+
+## Atualização v1.1
+A secção `#porque-app` foi inserida imediatamente após o hero e a faixa institucional, antes de Soluções. Cinco cartões apresentam benefícios com interfaces ilustrativas da Lumière Clinic. Os botões levam à secção de apresentação do aplicativo. Nenhum resultado ou cliente real é alegado.
