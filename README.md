@@ -33,3 +33,10 @@ HTML5, CSS3 e JavaScript puro, sem dependências de build. Pode ser hospedado co
 
 ## Atualização v1.1
 A secção `#porque-app` foi inserida imediatamente após o hero e a faixa institucional, antes de Soluções. Cinco cartões apresentam benefícios com interfaces ilustrativas da Lumière Clinic. Os botões levam à secção de apresentação do aplicativo. Nenhum resultado ou cliente real é alegado.
+
+
+## Versão 1.2 — Hero Lumière Clinic
+
+Primeira dobra atualizada com website e app demonstrativos da Lumière Clinic. O retrato é um recorte de uma ilustração gerada para este conceito; não representa cliente real. A segunda dobra da versão 1.1 e as secções seguintes foram preservadas.
+
+Para publicar, substitua `index.html`, `styles.css`, `README.md` e envie também `assets/lumiere-portrait.jpg`. Mantenha `script.js` e `vercel.json` existentes.

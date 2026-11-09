@@ -8,3 +8,57 @@
 @media(max-width:1100px){.why-feature{min-height:400px}.why-card{padding:25px}.why-phone{right:-20px}.why-small .why-copy{max-width:65%}.why-card p{font-size:13px}.why-small h3{font-size:28px}}
 @media(max-width:800px){.why-app{padding:60px 0}.why-heading{grid-template-columns:1fr;gap:15px}.why-heading>p{max-width:620px}.why-feature{grid-column:span 6}.why-small{grid-column:span 6;min-height:300px}.why-small .why-copy{max-width:55%}.why-card h3{font-size:34px}.why-feature .why-copy{max-width:52%}.why-phone{right:5%;top:20px}.experience-ui,.organize-ui,.growth-ui{right:8%}}
 @media(max-width:520px){.why-app{padding:48px 0}.why-heading h2{font-size:36px}.why-grid{gap:12px}.why-feature{min-height:520px}.why-card{padding:23px;border-radius:18px}.why-feature .why-copy,.why-small .why-copy,.why-booking .why-copy{max-width:100%}.why-card h3{font-size:31px;max-width:310px;margin:16px 0 10px}.why-card p{max-width:300px;font-size:13px;margin-bottom:12px}.why-phone{width:170px;height:290px;border-width:6px;border-radius:27px;padding:16px 10px 10px;right:15px;top:auto;bottom:-65px}.why-phone-notch{top:5px;width:60px;height:15px}.loyalty-brand{font-size:19px;margin:20px 0 12px}.loyalty-brand strong{font-size:12px}.loyalty-title{font-size:18px}.loyalty-pass{padding:12px;gap:7px}.loyalty-pass strong{font-size:15px}.booking-title{font-size:16px;margin:30px 0 15px}.booking-days,.booking-times{margin:7px 0 14px}.booking-days span,.booking-times span{font-size:8px;padding:7px 2px}.why-small{min-height:410px}.experience-ui,.organize-ui,.growth-ui{right:18px;bottom:-35px;transform:rotate(5deg)}.why-disclaimer{text-align:left}}
+
+
+/* v1.2: refinamento exclusivo da primeira dobra. As restantes secções permanecem intactas. */
+.hero-v12{background:linear-gradient(115deg,#f8f8f5 0%,#f8f8f5 54%,#e8eee7 100%)}
+.hero-v12 .hero-grid{min-height:660px;grid-template-columns:51% 49%}
+.hero-v12 .hero-copy{padding:38px 0 52px}
+.hero-v12 h1{font-size:clamp(42px,4.1vw,65px);line-height:1.085;max-width:690px;letter-spacing:-2.1px}
+.hero-v12 .hero-description{max-width:540px;font-size:17px;line-height:1.6;color:#3e4c44}
+.hero-v12 .hero-benefits{margin-top:58px;gap:25px}
+.hero-v12 .hero-benefits span{max-width:170px;font-size:12px;line-height:1.35}
+.hero-v12 .benefit-icon{font-size:28px}
+.hero-showcase{height:650px}
+.hero-showcase .visual-orbit{width:790px;height:740px;left:35px;top:-15px;background:linear-gradient(145deg,#d7e5d7 3%,#a3c3ac 38%,#5b9277 73%,#194d38 100%);transform:rotate(23deg)}
+.hero-showcase .visual-orbit-line{position:absolute;left:90px;top:48px;width:690px;height:620px;border:1px solid #ffffff55;border-radius:50%;z-index:-1}
+.hero-showcase .pedestal{right:-100px;bottom:-65px;width:690px;height:180px;border-radius:55% 55% 0 0/35% 35% 0 0;background:linear-gradient(175deg,#f6f3eb,#d7d4ca 78%)}
+.hero-showcase .laptop{width:570px;top:132px;left:0;transform:perspective(1300px) rotateY(-5deg) rotateX(1deg);filter:drop-shadow(0 24px 18px #0f241e33)}
+.hero-showcase .laptop-screen{aspect-ratio:1.63;border-width:12px;border-bottom-width:17px}
+.hero-showcase .mock-site{background:#f2ede6}
+.hero-showcase .mock-site-nav{height:44px;padding:0 18px;font-size:8px}
+.hero-showcase .mock-site-nav strong{font:normal 16px var(--serif);letter-spacing:-.5px}
+.hero-showcase .mock-site-nav .lum-symbol{color:#ad8b58;font-size:20px;margin-right:4px}
+.hero-showcase .mock-site-nav b{font-size:7px;padding:7px 9px}
+.lumi-web-photo{position:absolute;right:0;top:44px;width:49%;height:calc(100% - 73px);background:#dfc7b8 url('./assets/lumiere-portrait.jpg') center 38%/cover no-repeat}
+.hero-showcase .mock-site-copy{top:95px;left:30px;gap:14px;max-width:53%}
+.hero-showcase .mock-site-copy small{font-size:7px;letter-spacing:1.4px}
+.hero-showcase .mock-site-copy strong{font:normal 31px/1.07 var(--serif)}
+.hero-showcase .mock-site-copy span{font-size:9px;line-height:1.5}
+.hero-showcase .mock-site-copy b{font-size:8px;padding:10px 13px}
+.lumi-web-footer{position:absolute;bottom:0;height:29px;width:100%;display:flex;align-items:center;justify-content:center;background:#f8f6f1;color:#334439;font-size:7px}
+.hero-showcase .phone{right:-20px;top:80px;width:237px;height:490px;transform:rotate(2deg);border:8px solid #161b18;border-radius:42px;box-shadow:0 23px 32px #12281d55,inset 0 0 0 2px #777;background:#faf9f5}
+.hero-showcase .phone-notch{width:82px;height:20px;left:calc(50% - 41px);top:7px}
+.hero-showcase .phone-ui{height:100%;padding:21px 12px 10px;background:linear-gradient(165deg,#0c3a2c 0%,#205741 49%,#f6f2ea 76%);border-radius:33px;color:white;overflow:hidden}
+.phone-status{display:flex;justify-content:space-between;font-size:10px;font-weight:700;margin-bottom:20px;padding:0 7px}
+.hero-showcase .phone-head{margin:0 0 24px;align-items:start}
+.hero-showcase .phone-head strong{font:normal 16px/1.1 var(--serif);letter-spacing:-.4px;text-align:center;flex:1;padding-left:20px;color:#fff}
+.hero-showcase .phone-head .lum-symbol{font-size:29px;color:#d9bc84}
+.hero-showcase .phone-head>span{font-size:15px;color:#d9bc84}
+.hero-showcase .phone-ui h3{font:normal 28px var(--serif);color:#fff;margin:0 0 3px}
+.phone-welcome{font-size:10px;margin-bottom:22px;color:#e2ede5}
+.hero-showcase .appointment{background:#f8f7f2;color:#1b3328;border-radius:13px;padding:14px;box-shadow:0 7px 12px #0002;gap:6px}
+.hero-showcase .appointment span{font-size:8px;letter-spacing:0}
+.hero-showcase .appointment strong{font-size:12px;display:flex;justify-content:space-between}
+.hero-showcase .appointment strong span{font-size:20px;line-height:10px}
+.hero-showcase .appointment small{font-size:9px}
+.phone-tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:15px}
+.phone-tiles div{height:69px;border-radius:11px;background:#fbf9f4;color:#20513d;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:21px;box-shadow:0 3px 8px #0001}
+.phone-tiles small{font-size:9px;line-height:1.12;text-align:center;margin-top:3px;font-weight:700}
+.hero-showcase .phone-bottom{display:flex;justify-content:space-around;left:0;right:0;bottom:0;padding:10px 5px 8px;background:#fbfaf6;color:#21543f;border-radius:0 0 30px 30px;border-top:1px solid #e1e5df}
+.hero-showcase .phone-bottom span{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:16px}
+.hero-showcase .phone-bottom small{font-size:7px}
+.hero-showcase .demo-note{right:15px;bottom:20px;font-size:10px;color:#50685a}
+@media(max-width:1150px) and (min-width:801px){.hero-v12 .hero-grid{grid-template-columns:52% 48%}.hero-v12 h1{font-size:clamp(39px,4.2vw,52px)}.hero-showcase{transform:scale(.79);transform-origin:left center;width:650px;margin-left:-15px}}
+@media(max-width:800px){.hero-v12 .hero-grid{grid-template-columns:1fr;min-height:0}.hero-v12 .hero-copy{padding:40px 0 12px}.hero-v12 h1{font-size:clamp(39px,8.6vw,60px)}.hero-v12 .hero-benefits{margin-top:30px}.hero-showcase{height:400px;width:650px;transform:scale(.67);transform-origin:left top;margin-top:0}.hero-showcase .laptop{left:5px}}
+@media(max-width:520px){.hero-v12 .hero-copy{padding-top:28px}.hero-v12 h1{font-size:clamp(37px,9.3vw,49px);letter-spacing:-1.4px}.hero-v12 .hero-description{font-size:15px}.hero-v12 .actions{display:grid;grid-template-columns:1fr}.hero-v12 .actions .btn{width:100%;min-height:48px}.hero-v12 .hero-benefits{gap:12px}.hero-v12 .hero-benefits span{max-width:105px;font-size:10px}.hero-v12 .benefit-icon{font-size:23px}.hero-showcase{height:290px;transform:scale(.47);margin-top:8px}.hero-showcase .demo-note{bottom:20px}}
