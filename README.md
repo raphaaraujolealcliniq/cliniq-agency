@@ -1,17 +1,21 @@
-# Cliniq Agency v1.4
+# Cliniq Agency — Projeto limpo v2
 
-Website estático responsivo (HTML, CSS, JS) para Vercel.
+## Referência visual
+Implementação baseada **exclusivamente** na imagem de referência aprovada pelo utilizador em 11/11/2026.
 
-## Instalação
-Extraia o ZIP e envie **os ficheiros e a pasta `assets/`** para a raiz do repositório GitHub. Não envie apenas o ZIP. O Vercel deverá publicar automaticamente a branch `main`.
+- Hero: verde-pinho profundo, dourado e composição Lumière Clinic.
+- Soluções: três cards com identidades próprias — Lumière Clinic, Maison Aesthetics e Forma Studio.
+- Benefícios, portfólio, processo e contacto.
+- Layout responsivo, menu mobile e navegação por âncoras.
 
-## Alterações
-- Hero com composição visual Lumière Clinic; versão própria para mobile.
-- Três cartões com identidades distintas: Lumière Clinic (app), Maison Aesthetics (website), Forma Studio (publicidade).
-- Ajustes de grelha e larguras para ecrãs pequenos.
-- Mantidas as secções de benefícios, processo, demonstração e contacto.
+## Atenção aos recursos visuais
+Os ficheiros em `assets/` são **recortes da imagem de referência enviada**, para conservar o visual exato dos mockups. Não são interfaces de aplicativo navegáveis nem imagens independentes editáveis por camadas. Se quiser alterar textos dentro dos três cards, será necessário substituir as imagens ou reconstruir os mockups em componentes.
 
-## Antes de lançar campanhas
-- O formulário de contacto **não envia pedidos** até substituir `contacto@SEU-DOMINIO.pt` no `script.js` por um endereço real. Mesmo configurado, abre o programa de email do visitante; para captação fiável, integrar serviço de formulários ou backend.
-- Projetos e interfaces são conceitos demonstrativos, não trabalhos reais.
-- Verificar visualmente em iPhone e Android reais, bem como botões, navegação e formulário.
+## Publicação
+Crie um **novo repositório vazio** no GitHub. Envie os arquivos `index.html`, `styles.css`, `script.js`, `vercel.json` e a pasta `assets` na raiz (não envie o ZIP inteiro). Importe o repositório como projeto novo na Vercel, com Framework Preset **Other**, sem build command e output directory padrão.
+
+## Formulário
+Por segurança, o formulário não envia pedidos a nenhum serviço. Configure `recipient` em `script.js` para usar mailto, ou integre uma API própria de formulários antes de lançar campanhas.
+
+## Projetos demonstrativos
+Lumière Clinic, Maison Aesthetics e Forma Studio são exemplos conceptuais, não cases de clientes reais.
